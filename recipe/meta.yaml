@@ -24,9 +24,6 @@ requirements:
     - setuptools
   run:
     - python
-    - dlib
-    - imageio >=2.5.0
-    - skimage >=0.14.2
     - numpy >=1.14.6
     - scipy >=1.1.0
     - scikit-learn >=0.20.1
@@ -48,7 +45,6 @@ test:
     - mlxtend.feature_selection
     - mlxtend.file_io
     - mlxtend.frequent_patterns
-    - mlxtend.image
     - mlxtend.math
     - mlxtend.plotting
     - mlxtend.preprocessing

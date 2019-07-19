@@ -1,7 +1,7 @@
 {% set name = "mlxtend" %}
-{% set version = "0.16.0" %}
+{% set version = "0.17.0" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "86e14a6af1f61c851b032b7983c566a970af9732245f5d7a535b70b0979684c6" %}
+{% set hash_value = "273d62f12398d449f6ff8d0b89a18a798f9f75f6d60570acd3d513d8eaeeadbc" %}
 
 package:
   name: '{{ name|lower }}'

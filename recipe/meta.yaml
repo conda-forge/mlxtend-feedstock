@@ -1,7 +1,7 @@
 {% set name = "mlxtend" %}
-{% set version = "0.17.0" %}
+{% set version = "0.17.1" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "273d62f12398d449f6ff8d0b89a18a798f9f75f6d60570acd3d513d8eaeeadbc" %}
+{% set hash_value = "2e60c89d3826bb29abfbb3c512dd9981e4111d133a21f49d6410188e5e2cd06c" %}
 
 package:
   name: '{{ name|lower }}'
@@ -15,7 +15,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:

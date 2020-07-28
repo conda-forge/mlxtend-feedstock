@@ -5,7 +5,7 @@ Home: https://github.com/rasbt/mlxtend
 
 Package license: BSD v3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Machine Learning Library Extensions
 

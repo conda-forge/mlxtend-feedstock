@@ -5,9 +5,13 @@ Home: https://github.com/rasbt/mlxtend
 
 Package license: BSD v3
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mlxtend-feedstock/blob/master/LICENSE.txt)
 
 Summary: Machine Learning Library Extensions
+
+Development: https://github.com/rasbt/mlxtend
+
+Documentation: http://rasbt.github.io/mlxtend/
 
 A library of Python tools and extensions for data science and machine learning.
 Contact =============

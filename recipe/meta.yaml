@@ -1,5 +1,5 @@
 {% set name = "mlxtend" %}
-{% set version = "0.17.3" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 66d10059630a84c394cd8d82bca62c3da77b9fe6566f03656f2b52e353b8fe06
+  sha256: 42965827a58d91f218b35a394881b45025a5c023ef8e595825bc97c955f9256c
 
 build:
   noarch: python

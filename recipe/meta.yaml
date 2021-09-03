@@ -1,5 +1,5 @@
 {% set name = "mlxtend" %}
-{% set version = "0.18.0" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 42965827a58d91f218b35a394881b45025a5c023ef8e595825bc97c955f9256c
+  sha256: d6f2b8b48e7a1c7378198c9c8b3338b6f2d7fb21cbdc03f75c63b780ce438274
 
 build:
   noarch: python
@@ -18,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
   run:
-    - python
+    - python >=3.6
     - numpy >=1.14.6
     - scipy >=1.1.0
     - scikit-learn >=0.20.1
@@ -52,7 +52,7 @@ test:
 
 about:
   home: https://github.com/rasbt/mlxtend
-  license: BSD v3
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE-BSD3.txt
   summary: Machine Learning Library Extensions
